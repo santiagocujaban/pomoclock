@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #e23d3d;
+    margin-top: 60px;
+}
+
+.head {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    background: #e23d3d;
+}
+
+.head img {
+    float: left;
+    width: 40px;
+}
+
+.head h1 {
+    float: left;
+    line-height: 45px;
+    margin: 0 10px;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px 10px #000000;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 90px auto;
+}
+
+.wrapper img {
+    width: 30%;
+    text-align: center;
+
+    /* image center - styles*/
+    display: block; 
+    margin: auto;
+}
+
+.clock {
+    width: 30%;
+    height: 50px;
+    background: #e9e9e9;
+    display: block; 
+    margin: 30px auto;
+    margin-top: 10px;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 25px 2px #000000;
+}
+
+.controlTime {
+    margin: 20px;
+    text-align: center;
+}
+
+.controlTime input {
+    font-family: sans-serif;
+    width: 15%;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: none;
+    transition: all 300ms;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+    box-shadow: 0 7px 25px 2px #000000;
+}
+
+.controlTime input[value="PLAY"]{
+    background: #2dc235;
+}
+
+.controlTime input[value="PAUSE"]{
+    background: #ff2323;
+}
+
+.controlTime input:hover {
+    transform: translateY(-7px);
+}
+
+.footer {
+    background: linear-gradient(130deg, #108f17, #000000);
+    text-align: center;
+    border-top: 3px solid #ffffff;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
